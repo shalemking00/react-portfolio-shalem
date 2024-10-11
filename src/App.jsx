@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-portfolio-shalem">
       <Routes>
         <Route path="/react-portfolio" element={<Home/>}/>
       </Routes>
